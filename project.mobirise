@@ -1,0 +1,554 @@
+{
+  "settings": {
+    "name": "Page information de commande-clone",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "AvenirLTStd-Roman",
+        "display1Size": "3.25",
+        "display2Font": "AvenirLTStd-Roman",
+        "display2Size": 3,
+        "display5Font": "AvenirLTStd-Roman",
+        "display5Size": "1.2",
+        "display7Font": "AvenirLTStd-Roman",
+        "display7Size": "0.8",
+        "display4Font": "AvenirLTStd-Roman",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [
+      {
+        "css": "'AvenirLTStd-Roman'",
+        "name": "AvenirLTStd-Roman",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/AvenirLTStd-Roman/font.ttf"
+      }
+    ],
+    "versionFirst": "4.7.6",
+    "uniqCompNum": 3,
+    "versionPublish": "4.8.10",
+    "favicon": "",
+    "noImageResize": "",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              },
+              "display": "inline-flex",
+              "align-items": "center"
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "-webkit-flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-expand": {
+                "flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://sac-publicitaire-e-shop.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo-122x137.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">information sur la commande</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-preview mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 51, 102);\"></span>\n                        \n                        Services\n                    </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">\n                    \n                    Try It Now!\n                </a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "qTkzRZLJNu",
+          "_anchor": "menu1-0",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-text": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#149dcc"
+            },
+            ".tabcont": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".mbr-iconfont": {
+              "font-size": "48px"
+            },
+            ".card-img": {
+              "margin-bottom": "1.5rem"
+            },
+            ".tab-content-row": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".tab-content": {
+              "margin-top": "3rem",
+              "width": "100%"
+            },
+            ".nav-tabs": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "border-bottom": "none"
+            },
+            ".nav-tabs .nav-link": {
+              "box-sizing": "border-box",
+              "color": "@tabsColor",
+              "font-style": "normal",
+              "font-weight": "500",
+              "border-radius": "3px",
+              "padding": "1rem 3rem",
+              "margin": "0.4rem .8rem !important",
+              "transition": "color .3s",
+              "border": "2px solid @tabsColor",
+              "&:hover": {
+                "background": "@activeTabColor"
+              },
+              "&.active": {
+                "color": "contrast(@activeTabColor)",
+                "font-style": "normal",
+                "border": "2px solid @activeTabColor",
+                "background": "@activeTabColor",
+                "&:hover": {
+                  "border": "2px solid @activeTabColor"
+                }
+              }
+            },
+            "H2": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle B": {
+              "color": "#ff3366"
+            },
+            "B": {
+              "color": "#ffffff"
+            },
+            "H4": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "tabs3",
+          "_customHTML": "<section class=\"tabs3\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showHeader\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Show Titles\" name=\"showTitles\" checked>\n        <input type=\"color\" title=\"Tabs Color\" name=\"tabsColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#7f1933\">\n        <select title=\"Tabs Count\" name=\"tabsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <select title=\"Columns in Tabs\" name=\"columnsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/347453-600x600.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#073b4c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showHeader\"><br>Information de commande en référence</h2>\n        <h3 class=\"mbr-section-subtitle  display-5 align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>Cet espace vous est dédié afin que vous puissiez prendre connaissance de l'ensemble des informations concernant votre emballage publicitaire.</b></h3>\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row tabcont\">\n            <ul class=\"nav nav-tabs pt-3 mt-5\" role=\"tablist\">\n                <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item mbr-fonts-style\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link active show\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs3-5_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 51, 102);\"></span>Pré requis graphiques et techniques</a></li>\n                <li mbr-buttons mbr-if=\"tabsCount > 1\" class=\"nav-item mbr-fonts-style\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\" mbr-theme-style=\"display-7\"><a class=\"nav-link  active show\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs3-5_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\"><span class=\"mbrib-bulleted-list mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(250, 18, 76);\"></span>&nbsp;Options et modalités</a></li>\n                <li mbr-buttons mbr-if=\"tabsCount > 2\" class=\"nav-item mbr-fonts-style\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\" mbr-theme-style=\"display-7\"><a class=\"nav-link active show\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs3-5_tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 51, 102);\"></span>&nbsp;Processus de commande</a></li>\n                <li mbr-buttons mbr-if=\"tabsCount > 3\" class=\"nav-item mbr-fonts-style\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\" mbr-theme-style=\"display-7\"><a class=\"nav-link active show\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs3-5_tab3\" data-app-placeholder=\"Type Text\" aria-selected=\"true\"><span class=\"mbri-delivery mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 51, 102);\"></span>&nbsp;Livraison</a></li>\n                <li mbr-buttons mbr-if=\"tabsCount > 4\" class=\"nav-item mbr-fonts-style\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\" mbr-theme-style=\"display-7\"><a class=\"nav-link active show\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs3-5_tab4\" data-app-placeholder=\"Type Text\" aria-selected=\"true\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 51, 102);\"></span>&nbsp;Conditions générales de vente</a></li>\n                <li mbr-buttons mbr-if=\"tabsCount > 5\" class=\"nav-item mbr-fonts-style\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\" mbr-theme-style=\"display-7\">\n                    <a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6\">\n                        Unique Styles\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row px-1\">\n            <div class=\"tab-content\">\n                <div id=\"tab1\" class=\"tab-pane in active mbr-table\" role=\"tabpanel\">\n                    <div class=\"row tab-content-row\">\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-preview\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">SURFACE D'IMPRESSION<br><br></h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">En flexographie automatique sur papier &nbsp;on imprime sur bobine de papier jusqu'à couleurs 100 % de la surface du papier et jusqu' à &nbsp;une bobine indivisible de papier représente 3000 sacs ou boites minimum sur certains format et 5000 et &nbsp; 10 000 sur certains autres. &nbsp;Le sac ou la boite est fabriqué en ligne de production automatique après impression &nbsp;à partir du papier imprimé sur bobine. En offset &nbsp;on imprime jusqu' à 100 % de la surface de la boite ou du sac en nombre exacte de couleur, sur un papier couché. En sérigraphie on imprime jusqu'à 3 ou 4 couleurs sous certaines conditions (pas de couleurs se chevauchant, pas de point et trait trop petits ou trop fins) exclusivement en repiquage sur un sac ou une boite déja monté. Seulement les faces avant ou arriere sont imprimable sur environ 30 à 40 % de la surface du sac. Une marge non imprimable est obligatoire sur les cotés correspondant à la largeur des soufflets &nbsp;ainsi qu'au dessous des fixations de poignées et à la base du soufflet de fond de sac.</p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 1\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-website-theme\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">FICHIER VISUEL A NOUS TRANSMETTRE</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-text\">En flexographie automatique nous pouvons utiliser pour le clichage de votre impression 2 types de fichier. Le premier le plus répandu est un fichier visuel vectoriel AI, SVG ou PDF vectorisé avec les Pantones correspondant à chaque couleur attendue. Le second est un fichier visuel raster (matriciel) en TIFF JPEG ou EPS avec très haute définition 300 DPI minimum. Les graphismes et images doivent avoir &nbsp;une ligne de trait ou point d'un minimum de 0.15 mm. L'image doit être délivrée au format exact d'impression. Les couleurs sont traitées en quadrichromie CYMK. Un outil est à votre diposition afin de nous transmettre votre fichier visuel en téléchargement. <i>Cliquez ici</i> pour nous transmettre votre fichier visuel. Un lien vers un nuancier Pantone est à votre disposition pour choisir vos couleurs et vérifier qu'elles sont conformes à vos attentes. Attention une couleur visualisé sur écran n' a pas le même rendu une fois imprimé sur papier.</p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 2\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-image-gallery\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">TRAVAIL &nbsp;DE &nbsp;STUDIO EN SUPPLEMENT</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">Pour toute création graphique ou modification du fichier visuel fourni en dehors des prés requis techniques attendus concernant les fichiers visuels à nous transmettre , il sera facturé en sus un cout horaire de 75 € hors taxe. Une création se fait sur un forfait minimum de &nbsp;heures. Une modification de fichier visuel non valide peut prendre entre 2 et 10 heures suivant l'étendue du travail à fournir. L' E - Shop des sacs publicitaires se réserve la possibilité de vous offrir gracieusement ce type de prestation sur certaine commande importante. En cas de non validité du fichier visuel transmis une offre de travail studio vous sera proposé avec un tarif annoncé en supplément du tarif de la commande initiale.<br>Il en va de même concernant la production de création de design, de forme et façonnage.</p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 3\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-camera\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">DROIT D'IMAGE ET PROTECTION&nbsp;</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">Les brevets, images, illustrations, graphismes, photographies, polices d'écriture, logos confiés à la société &nbsp;Sacs Publicitaires E- Shop pour production d'impression et façonnage doivent être la propriété de la société ou entreprise en nom propre &nbsp;passant la ou les &nbsp;commandes. L' E-Shop des sacs publicitaires décline toute responsabilité sur les droits qui ne seraient pas détenus par le donneur d'ordre concernant toute commande.<br>Les bons à tirer, maquettes et échantillons délivrés à chaque client &nbsp;sont la proriété de L' E-Shop des sacs publicitaires. Ils ne peuvent être reproduit ou copié, tout ou partie sans l'autorisation préalable de L' E-Shop des Sacs Publicitaires.</p>\n                        </div>\n                    </div>\n                </div>\n\n                <div id=\"tab2\" class=\"tab-pane  mbr-table\" role=\"tabpanel\">\n                    <div class=\"row tab-content-row\">\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-add-submenu\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-if=\"showTitles\" mbr-theme-style=\"display-5\">ACCESSOIRE EN SUPPLEMENT<br></h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">En production flexographie automatique <br><br>Pour les sacs en papier :&nbsp;<br><br>Fond de sac avec &nbsp;renfort carton 400 grammes/m² positionné ou livré à part.<br>Vernis selectif<br>Poignée papier torsadées ou plates en couleur, poignées cordelette coton couleur.<br>Papier vergé.<br>Papier couché.<br><br>Pour les sacs en papier luxe :<br><br>Poignées ruban, coton ou satin<br>Poignées cordon, coton ou nylon<br>avec 4 noeuds ou terminaison plastique.<br>Dorure, cuivrure, argenture à chaud.<br>Oblitération, rivet, oeillet.<br>Texture papier, lamination.<br><br>Pour les sacs en coton et tissu non tissé :<br><br>Format et patronnage sur mesure.<br>Impression numérique digitale.<br>Impression sur 100 % du support avant façonnage. Rivet, oeillet...<br><br>Pour les sacs en jute :<br><br>Format et patronnage sur mesure.\n<br>Impression numérique digitale.\n<br>Impression sur 100 % du support avant façonnage.<br>Lamination,Oblitération, rivet, oeillet<br><br>Pour les boites : faire une demande d'information par courriel à l' adresse suivante: williams@sac-publicitaire-e-shop.com<br><br><br><br></p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 1\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbrib-credit-card\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">MODALITE DE PAIEMENT</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-text\">Paiement d' acompte obligatoire pour tout nouveau client et toute commande supérieure à &nbsp;3000 euros hors taxes.<br><br>Paiment comptant par chèque, virement bancaire, prélèvement bancaire.<br><br>Règlement par chèque, virement , prélèvement &nbsp;bancaire à échéance.<br>30 jours, livré<br>60 jours, livré<br><br>Règlement par chèque, à échéance particulière convenue.\n<br><br>L'ordre des chèques bancaires est à mentionner au nom de <br><br>&nbsp;SAS SAC PUBLICITAIRE E-SHOP.<br><br>Les virements et prélèvement bancaires &nbsp;se font sur le compte bancaire identifié suivant :<br><br>TITULAIRE DU COMPTE<br><br>SAC PUBLICITAIRE E SHOP\n<br>30 RUE FERNAND SOORS\n<br>33140 VILLENAVE D ORNON<br><br>DOMICILIATION\n<br><br>BANQUE FIDUCIAL – 38, rue Sergent Michel Berthet – 69009 LYON<br><br>REFERENCES BANCAIRES\n&nbsp;<br><br>IBAN : FR76 1317 9000 0102 5486 0000 132\n<br>BIC : FIDCFR21XXX<br><br></p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 2\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-clock\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">DELAI DE PRODUCTION</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-text\">En commande sans personnalisation sur des références en stock : 48 heures de délai moyen&nbsp;après formalisation complète de la commande (bon de commande signé &nbsp;+ acompte encaissé + confirmation de commande délivrée)<br><br><br>En commande avec personnalisation sur sac papier, coton, jute, &nbsp;tissu non tissé, polypro pylène tissé, plastique, en stock : 15 jours de délai moyen après formalisation complète de la commande (bon de commande signé + bon à tirer signé + acompte encaissé + confirmation de commande délivrée).<br><br><br>En commande avec personnalisation sur sac papier, en format et option sur mesure approchant : 5 à 7 semaines de délai moyen après formalisation complète de la commande (bon de commande signé + bon à tirer signé + acompte encaissé + confirmation de commande délivrée).<br><br><br>En commande avec personnalisation sur sac papier, coton, jute,  tissu non tissé, polypro pylène tissé, plastique, sur mesure et option exacte : 15 semaines de délai moyen après formalisation complète de la commande (bon de commande signé + bon à tirer signé + acompte encaissé + confirmation de commande délivrée).<br><br>L'ensemble de ces délais sont des délais moyens.</p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 3\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbrib-update\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">DELAI DE RETRACTATION</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-text\">Le droit de rétraction entre professionnels\n<br>L’article L121-16-1 du Code de la consommation étend les règles applicables aux relations entre consommateurs et professionnels, aux contrats conclus hors établissement entre deux professionnels dès lors que l’objet de ces contrats n’entre pas dans le champ de l’activité principale du professionnel sollicité et que le nombre de salariés employés par celui-ci est inférieur ou égal à cinq.\nLe droit de rétraction entre professionnels est applicable uniquement lorsque les trois conditions suivantes sont respectées :\nle contrat doit être conclu hors établissement,\nl’objet du contrat ne doit pas entrer dans le champ d’activité principale de l’entreprise,\nle nombre de salariés de l’entreprise doit être inférieur ou égal à cinq.\n<br>Le contrat est conclu hors établissement.<br>Lorsque les trois conditions permettant la mise en œuvre du droit de rétraction sont remplies, le client professionnel peut se rétracter dans un délai de quatorze jours.\nLe point de départ du délai de rétractation est le jour :\nde la conclusion du contrat de prestations de service,\nde la réception des biens dans le cadre d’un contrat de vente de biens.Exception au droit de rétractation\n<br>Pour certains contrats ce qui est le cas de l'ensemble de nos prestations de personnalisation, il n'y a pas de droits de rétractation (sauf si le professionnel l'accorde au consommateur). C'est le cas des contrats :&nbsp;de biens confectionnés à la demande du consommateur ou nettement personnalisés.<br></p>\n                        </div>\n                    </div>\n                </div>\n\n                <div id=\"tab3\" class=\"tab-pane  mbr-table\" role=\"tabpanel\">\n                    <div class=\"row tab-content-row\">\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-shopping-cart\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">ENREGISTREMENT DE LA COMMANDE<br><br></h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-text\">A l'enregistrement de la commande nous validons votre commande après vérification et formalisation écrite de votre commande.<br>Nous produisons et vous envoyons &nbsp;un bon de commande avec nos conditions générales de vente. ce dernier peut mentionner, à votre demande des options supplémentaires que vous souhaitez rajouter et qui ne sont pas renseignées sur notre site marchand. Dans un délai de 48 heures (jours ouvrés) nous vous envoyons un bon de commande par courriel à l' adresse que vous nous avez renseigné sur notre site web marchand avec l'ensemble des informations administratives de facturation de livraison et caractéristiques produits. Dès le retour de ce bon de commande signé, daté, tamponné par courriel ou courrier postal nous réalisons un bon à tirer que nos vous transmettons sous délai moyen d'une semaine maximum.</p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 1\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-change-style\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">VALIDATION DU BON A TIRER ET/OU PROTOTYPE</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-text\">Après réception de votre bon de commande formalisé comme attendu, nous réalisons pour vous un bon à tirer conforme aux attentes que vous nous avez transmis à l'enregistrement de votre bon de commande &nbsp;(voir outil de téléchargement de votre fichier viuel). Ce bon à tirer sera corrigé par notre service graphique jusqu'à obtention du réultat que vous attendez pour satisfaction.<br>L' épreuve finale validée sera à nous retourner signée, datée, tamponnée par courriel pour lancement en production sans création de prototype ou avec création de prototype suivant votre demande et nos recommandations. En cas de création de prototype celui ci devraa nous être confirmé par retour de courrier ou courriel signé, daté, tamponné.</p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 2\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-like\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">CONFIRMATION DE COMMANDE</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-text\">\n                                <br>A réception du :<br> bon à tirer &nbsp;et /ou du prototype formalisés comme attendus. Nous émettons votre facture solde et acompte.&nbsp;A la réception de :<br> votre acompte ou règlement comptant, nous vous faisons parvenir votre confirmation de commande reprenant les termes et modalités et conditions du bon de commande.&nbsp;<br><br>A l'issue de 48 heures après envoi de la confirmation de commande par courriel la commande est définitivement enregistrée pour ordre de fabrication.</p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 3\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbrib-delivery\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">DECLENCHEMENT DEPART USINE</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">\n                                <br>Une fois la production réalisée, nous vous informons de l' achèvement de la production par téléphone et/ou par courriel. Nous éditons et envoyons la facture de solde et réceptionnons votre paiement. Ce dernier encaissé (sauf conditions de vente formalisées sous d'autres modalités) nous déclenchons l' expédition après prise de rendez vous téléphonique pour la réception des marchandises produites.</p>\n                        </div>\n                    </div>\n                </div>\n\n                <div id=\"tab4\" class=\"tab-pane  mbr-table\" role=\"tabpanel\">\n                    <div class=\"row tab-content-row\">\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-contact-form mobi-mbri\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">BON DE LIVRAISON<br><br><br></h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-text\">Au départ des marchandises de nos unités de production nous produisons un bon de livraison reprenant les informations de colisage de vos marchandises. <br><br>Référence et dénomination des articles livrés<br>Nombre de palette<br>Nombre de carton<br>Nombre d'articles livrés<br>Poids d'un carton<br>Dimension d'un carton<br>Lieu de livraison<br>Date de livraison<br>Contact de livraison<br><br>Celui ci vous sera remis par notre transporteur en main propre ou par notre service d'expédition par courriel avant la réception ou à la réception &nbsp;des marchandises et vos servira à valider la bonne réception de ces dernières.<br><br>En cas de défectuosité, détérioration ou erreur constatée vous pourrez alors les mentionner sur le bon de livraison dans la rubrique prévue à cet effet.<br><br>En réserve de propriété conformément à la loi n° 80. 335 du 12 mai 1980, les marchandises livrées demeurent la propriété de L’E-SHOP DES SACS PUBLICITAIRES, société par actions, simplifiée à associé unique jusqu'à complet paiement du prix. <br><br>L'acheteur en devient cependant responsable dès leur remise matérielle.&nbsp;<br><br></p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 1\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-zoom-out\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">LITIGE DE LIVRAISON<br><br><br></h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">&nbsp;Les plaintes concernant les quantités livrées, et non compatibles avec les devis et factures, devront impérativement être faites sur réception des marchandises.\n<br><br>Seuls les retours des cas dûment justifiés seront acceptés et ce jusqu'à la date butoir maximum de 8 jours après réception des marchandises. Passé ce délai les retours ne seront plus\nacceptés. <br><br><br>L’E-SHOP DES SACS PUBLICITAIRES, société par actions, simplifiée à associé unique n'accepte d'annulation pour retard de livraison qu'après mise en demeure par lettre recommandée,\nlaissant un délai de quinze jours supplémentaire pour l'expédition.<br><br><br>L'annulation de commande entraîne la facturation des frais engagés pour l'honorer.\n<br>Les demandes de prix devront être réalisées dans les huit jours suivant la date d'émission de la facture.&nbsp;<br><br>Tout constat de défectuosité, détérioration ou malfaçon devra être dûment justifié et confirmé par photo et si besoin est par l'intervention d'un huissier de justice assermenté.<br><br>L’E-SHOP DES SACS PUBLICITAIRES, société par actions, simplifiée à associé unique mettra tout en oeuvre afin de solutionner tout litige comme il se doit.<br><br><br></p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 2\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-numbered-list\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">CADENCE ET MODALITES DE LIVRAISON</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\"><br>L’E-SHOP DES SACS PUBLICITAIRES vous propose de gérer pour vos livraisons :<br><br>- un mode de &nbsp;livraison en centre ville par camion avec hayon pour déchargement au sol.<br>- un mode de &nbsp;livraison gros porteur en zone d' activité commerciale hors centre ville &nbsp;sur quai de déchargement.<br>- un mode de livraison en messagerie locale avec déchargement en étage hors ascenseur.<br>- un mode de livraison en messagerie locale avec déchargement en étage avec ascenceur.<br>- un mode de livraison express par voie aérienne pour nos marchandises venant de nos unités de production hors CEE.<br>- un mode de livraison économique &nbsp;par voie maritime pour nos marchandises venant de nos unités de production hors CEE.<br>- un planning de livraison en plusieurs temps<br>-&nbsp;un planning de livraison en plusieurs points de réception<br>- un planning de livraison en plusieurs temps et points de réception.<br>- Livraison en tout point de &nbsp;France métropolitaine, Corse inclus, à l'éxception des départements et territoires d'outre mer.<br>-&nbsp;L’E-SHOP DES SACS PUBLICITAIRES ne livre pas en dehors de la CEE.<br>L' ensemble de marchandises issues de nos unités de productions hors CEE sont &nbsp;livrées et &nbsp;vendues TTC<i> sous &nbsp;Incoterm 2010 delivery duty paid </i>(aucune taxe douanière en surplus, aucun frais supplémentaires de commissaire aux douanes)</p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 3\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mobi-mbri-sites mobi-mbri\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">STOCKAGE <br>ET GESTION DE STOCK</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\"><br>L’E-SHOP DES SACS PUBLICITAIRES vous propose pour vos livraisons en quantité très importante :<br><br>- un stockage sécurisé d'une ou plusieurs fractions de vos marchandises sur douze mois glissant.<br><br>- une gestion de réassort de production sur stock tampon.</p>\n                        </div>\n                    </div>\n                </div>\n\n                <div id=\"tab5\" class=\"tab-pane  mbr-table\" role=\"tabpanel\">\n                    <div class=\"row tab-content-row\">\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-file\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">TERMES ET CONDITIONS</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">- GENERALITES –\n<br>1. Comme d'usage dans la profession et sauf indication écrite du client, L’E-SHOP DES SACS PUBLICITAIRES, société par actions simplifiée à associé unique se réservent le droit d'apposer une\n<br>signatureet un logo L’E-SHOP DES SACS PUBLICITAIRES de façon discrète (soufflets de fonds, ou bas de soufflet latéral, face, socle), sur les sacs et/ou boites (sauf indication marque blanche\n<br>souhaitée) . Nos marchandises sont vendues suivant le code des usages et conditions générales de vente des industries de la transformation des films et gaines polyéthylène ou papier/carton . Les\n<br>marchandises de L’E-SHOP DES SACS PUBLICITAIRES sont vendues sur ordre, confirmé, sans observation, l'ordre de fabrication confirmé devient définitif huit jours après son envoi. La signature\n<br>d'un bon de commande implique l'adhésion complète à nos conditions générales et particulières de vente. L'acceptation de nos conditions générales de vente l'emporte sur celles de l'acheteur,\n<br>éventuellement portées sur le bon de commande.<br><br></p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 1\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-file\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">TERMES ET CONDITIONS</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">- DEVIS ET PROPOSITIONS – \n<br>2. Les prix indiqués dans les devis et les propositions sont valables pendant 30 jours, ils correspondent à l'adéquation des cours du marché selon une période définie, au-delà de ce délai les prix peuvent être \n<br>modifiés. Nos prix s'entendent hors taxes, nets, sans escompte, pour marchandises livrées France métropolitaine, sauf stipulation contraire portée sur la confirmation de commande elle-même. \n<br>.3. Si, au cours de la période de validité le devis, la proposition présente une erreur, ainsi qu' en cas de facture antérieure non payée à échéance L’E-SHOP DES SACS PUBLICITAIRES, société par actions \n<br>simplifiée à associé unique se réserve le droit de corriger ou d'annuler la ou les commandes. \n<br>4. Les quantités commandées peuvent fluctuer de plus ou moins 10 à 15% du fait des procédés techniques résultant de l'industrie des impressions graphiques, ainsi que de par les variations que peuvent \n<br>subir les matières premières, dans les traitements des machines et leurs dommages imprévisibles. Papier : + ou - 15 % Grammage, épaisseur : + ou - 10 % Dimensions : + ou - 2 %. Les légères \n<br>différences d'opacité, de nuance et d'exécution, inévitables dans nos fabrications, ne peuvent motiver aucun rabais, ni refus de marchandises. \n<br>5 . En cas d'écart important supérieur à 20%, entre les montants inscrits dans le bon de commande et la commande livrée le prix de vente sera examiné pour rétablir la dégressivité tarifaire liée à un \n<br>volume plus important.<br>6. En cas d'annulation de commande par tout client, après la confirmation de commande, L’E-SHOP DES SACS PUBLICITAIRES, société par actions, simplifiée à associé unique se réserve le droit de facturer \n<br>les frais encourus jusqu'à la date d'annulation. (Création d'image, bon à tirer, prototype, blocs, dessins, plaques, papier, etc.) \n<br>7. Toute modification ultérieure apportée à la réalisation contractualisée par approbation d’un bon de commande signé sera soumise à la surfacturation du devis en fonction des services et/ou produits supplémentaires demandés.<br></p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 2\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-file\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">TERMES ET CONDITIONS</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">- DEVIS ET PROPOSITIONS –SUITE<br>8. La fourniture de documents, des fichiers multimédias numériques et Art Works graphiques, sont de la responsabilité du client. L’E-SHOP DES SACS PUBLICITAIRES, société par actions, simplifiée à\nassocié unique ne réalise pas de création graphique, sauf si la commande le stipule explicitement comme service commandé et facturé, en dehors de toutes demandes explicites seuls les ajustements\nnécessaires de fichiers clients pour impression de plan sont réalisés. <br>Des erreurs ou des lacunes dans les dossiers fournis par les clients, ne sont pas de la responsabilité de L’E-SHOP DES SACS\nPUBLICITAIRES, société par actions, simplifiée à associé unique.<br><br><br>9 . Tous modèles, maquettes, dessins proposés par L’E-SHOP DES SACS PUBLICITAIRES, société par actions, simplifiée à associé unique restent propriété de celle-ci Il est interdit de les reproduire ou de\nles communiquer à la concurrence (loi des 9 et 11 janvier 1870, et révision. de la convention de Berne du 13 novembre 1908). Les clients de L’E-SHOP DES SACS PUBLICITAIRES, société par actions,\n<br>simplifiée à associé unique doivent posséder le droit de reproduction des maquettes, dessins ou modèles qu'ils confient ou qu'ils commandent à L’E-SHOP DES SACS PUBLICITAIRES, société par actions,\n<br>simplifiée à associé unique. Leur bon de commande dégage L’E-SHOP DES SACS PUBLICITAIRES, société par actions, simplifiée à associé unique de toute responsabilité à ce sujet.\n<br><br><br>10. Les délais de livraison sont donnés à titre indicatif et ne commenceront qu’après l'approbation des « Bon à tirer » signés et datés par le client. Ces délais sont prolongés de plein droit en cas de force\nmajeure.<br> Si pour des raisons dûment justifiées et indépendantes de la volonté de L’E-SHOP DES SACS PUBLICITAIRES, société par actions, simplifiée à associé unique , les délais de livraison\naccordés ne sont pas respectées, aucun dédommagement et/ou indemnités ne seront dus. Les livraisons sont subordonnées au règlement de toutes factures antérieures.\n<br><br></p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 3\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbr-iconfont mbri-file\" style=\"color: rgb(255, 51, 102); fill: rgb(255, 51, 102);\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">TERMES ET CONDITIONS</h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">- CONDITIONS DE PAIEMENT - \n<br>11.Nos conditions de paiement s’appliquent à tous nos produits, services et livraisons, sur la base d' un règlement d' acompte à la commande de 50 % TTC, la commande n'est enregistrée qu' après règlement \n<br>d'acompte. Le solde est dû pour déclenchement de départ de nos usines.Tout solde non versé une fois la production réalisée entraine des frais de stockage supplémentaires à la charge intégrale du client.<br> Ces frais sont calculés en fonction du volume en stockage au tarif de 30,00 € H.T par semaine pour 1,5 mètres cube. Nous accordons une souplesse de 8 jours après production sans couts supplémentaires de \n<br>stockage.<br><br>- LIVRAISON / TRANSPORT - FACTURES –\n<br><br>12. Les plaintes concernant les quantités livrées, et non compatible avec les devis et factures, devront impérativement être faite sur réception des marchandises.\n<br><br>13. Seuls les retours des cas dûment justifiés seront acceptés et ce jusqu'à la date butoir maximum de 8 jours après réception des marchandises. Passé ce délai les retours ne seront plus\nacceptés.L’E-SHOP DES SACS PUBLICITAIRES, société par actions, simplifiée à associé unique n'accepte d'annulation pour retard de livraison qu'après mise en demeure par lettre recommandée,\n<br>laissant un délai de quinze jours supplémentaire pour l'expédition. L'annulation de commande entraîne la facturation des frais engagés pour l'honorer.\n<br>14. Les demandes de prix devront être réalisées dans les huit jours suivant la date d'émission de la facture.\n<br><br>1 5. En réserve de propriété conformément à la loi n° 80. 335 du 12 mai 1980, les marchandises livrées demeurent la propriété de L’E-SHOP DES SACS PUBLICITAIRES, société par\nactions, simplifiée à associé unique jusqu'à complet paiement du prix. L'acheteur en devient cependant responsable dès leur remise matérielle.\n<br><br>16. En cas de litige, est exclusivement compétent le tribunal de commerce de Bordeaux.<br></p>\n                        </div>\n                    </div>\n                </div>\n\n                <div id=\"tab6\" class=\"tab-pane  mbr-table\" role=\"tabpanel\">\n                    <div class=\"row tab-content-row\">\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                                TRENDY WEBSITE BLOCKS\n                            </h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">\n                                Choose from the large selection  pre-made blocks - full-screen intro, bootstrap carousel, slider, responsive image gallery with, parallax scrolling, sticky header and more.\n                            </p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 1\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                                TRENDY WEBSITE BLOCKS\n                            </h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">\n                                Choose from the large selection  pre-made blocks - full-screen intro, bootstrap carousel, slider, responsive image gallery with, parallax scrolling, sticky header and more.\n                            </p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 2\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                                TRENDY WEBSITE BLOCKS\n                            </h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">\n                                Choose from the large selection  pre-made blocks - full-screen intro, bootstrap carousel, slider, responsive image gallery with, parallax scrolling, sticky header and more.\n                            </p>\n                        </div>\n\n                        <div class=\"col-xs-12 col-md-6\" mbr-class=\"{'col-lg-3': columnsCount == '4','col-lg-4': columnsCount == '3'}\" mbr-if=\"columnsCount > 3\">\n                            <div class=\"card-img \" mbr-if=\"showIcons\">\n                                <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                            </div>\n                            <h4 class=\"mbr-element-title  align-center mbr-fonts-style pb-2\" mbr-if=\"showTitles\" mbr-theme-style=\"display-5\">\n                                TRENDY WEBSITE BLOCKS\n                            </h4>\n                            <p class=\"mbr-section-text  align-center mbr-fonts-style\" data-app-selector=\".mbr-section-text\" mbr-theme-style=\"display-7\">\n                                Choose from the large selection  pre-made blocks - full-screen intro, bootstrap carousel, slider, responsive image gallery with, parallax scrolling, sticky header and more.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "recOadBzCJ",
+          "_anchor": "tabs3-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
